@@ -98,7 +98,7 @@ const AllMlProjects = () => {
         {
             id: 7,
             projectName: 'Loan Status Prediction',
-            projectDescription: 'This is the fast API backend repository of the Loan Status Prediction Website where a bank employee can predict whether an applicant is eligible for receiving loan or not.',
+            projectDescription: 'This is a project created with the help of NextJS, fastAPI and Random forest classifier Model which enables bank employees predict whether an applicant is eligible for receiving loan or not.',
             projectPic: LoanStatusImg,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
