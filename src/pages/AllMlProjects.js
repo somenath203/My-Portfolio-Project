@@ -43,7 +43,7 @@ const AllMlProjects = () => {
         {
             id: 2,
             projectName: 'House Price Predictor',
-            projectDescription: 'This is a project which predicts the price of ouse on the basis of Boston House Dataset.',
+            projectDescription: 'This is a project which predicts the price of a new house on the basis of Boston House Dataset.',
             projectPic: HousePredictorPic,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
