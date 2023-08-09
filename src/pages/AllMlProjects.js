@@ -114,7 +114,7 @@ const AllMlProjects = () => {
             projectPic: GoldPriceImg,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
-            techStack: 'ReactJS, TailwindCSS, antd, FastAPI, Pandas, Seaborn, Scikit-learn',
+            techStack: 'ReactJS, TailwindCSS, antd, FastAPI, Pandas, Matplotlib, Seaborn, Scikit-learn',
             projectLivePreviewLink: 'https://gold-price-detection.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/Gold-Price-Prediction'
         }
