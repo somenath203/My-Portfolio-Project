@@ -10,7 +10,8 @@ import StudentSuccessDropoutPredictorPic from './../assets/studentsuccessdropout
 import CreditCardFraudDetectImg from './../assets/creditcardfrauddetectimg.png';
 import SpamEmailDetectImg from './../assets/spamemailpredictionimg.png';
 import RockVSMineImg from './../assets/rockvsminepredcitionpic.png';
-import LoanStatusImg from './../assets/loanstatuspredictionpic.png'
+import LoanStatusImg from './../assets/loanstatuspredictionpic.png';
+import GoldPriceImg from './../assets/goldpricepredimg.png';
 
 
 const AllMlProjects = () => {
@@ -43,7 +44,7 @@ const AllMlProjects = () => {
         {
             id: 2,
             projectName: 'House Price Predictor',
-            projectDescription: 'This is a project which predicts the price of ouse on the basis of Boston House Dataset.',
+            projectDescription: 'This is a project which predicts the price of a new house on the basis of Boston House Dataset.',
             projectPic: HousePredictorPic,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
@@ -98,13 +99,24 @@ const AllMlProjects = () => {
         {
             id: 7,
             projectName: 'Loan Status Prediction',
-            projectDescription: 'This is the fast API backend repository of the Loan Status Prediction Website where a bank employee can predict whether an applicant is eligible for receiving loan or not.',
+            projectDescription: 'This is a project created with the help of NextJS, fastAPI and Random forest classifier Model which enables bank employees predict whether an applicant is eligible for receiving loan or not.',
             projectPic: LoanStatusImg,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
             techStack: 'NextJS, TailwindCSS, antd, FastAPI, Numpy, Pandas, Seaborn, Scikit-learn',
             projectLivePreviewLink: 'https://loan-status-prediction-frontend.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/Loan-Status-Prediction-Frontend'
+        },
+        {
+            id: 8,
+            projectName: 'Gold Price Prediction',
+            projectDescription: 'This is a project created with the help of ReactJS, fastAPI and Random forest Regressor Model which predicts the price of gold based on certain input.',
+            projectPic: GoldPriceImg,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'ReactJS, TailwindCSS, antd, FastAPI, Pandas, Seaborn, Scikit-learn',
+            projectLivePreviewLink: 'https://gold-price-detection.vercel.app/',
+            projectGithubLink: 'https://github.com/somenath203/Gold-Price-Prediction'
         }
     ];
 
