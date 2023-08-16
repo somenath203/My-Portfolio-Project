@@ -12,6 +12,7 @@ import SpamEmailDetectImg from './../assets/spamemailpredictionimg.png';
 import RockVSMineImg from './../assets/rockvsminepredcitionpic.png';
 import LoanStatusImg from './../assets/loanstatuspredictionpic.png';
 import GoldPriceImg from './../assets/goldpricepredimg.png';
+import ParkinsnImg from './../assets/parkinsondiseasepredpic.png';
 
 
 const AllMlProjects = () => {
@@ -114,9 +115,20 @@ const AllMlProjects = () => {
             projectPic: GoldPriceImg,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
-            techStack: 'ReactJS, TailwindCSS, antd, FastAPI, Pandas, Matplotlib, Seaborn, Scikit-learn',
+            techStack: 'ReactJS, antd, FastAPI, Pandas, Matplotlib, Seaborn, Scikit-learn',
             projectLivePreviewLink: 'https://gold-price-detection.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/Gold-Price-Prediction'
+        },
+        {
+            id: 9,
+            projectName: 'Parkinson\'s Disease Prediction',
+            projectDescription: 'This is a project created with the help of ReactJS, fastAPI and Support Vector Classifier Model which predicts whether a person is having Parkinson\'s Disease or not.',
+            projectPic: ParkinsnImg,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'ReactJS, FastAPI, Numpy, Pandas, Scikit-learn',
+            projectLivePreviewLink: 'https://parkinson-disease-predictor.vercel.app/',
+            projectGithubLink: 'https://github.com/vishal815/Parkinsons-Disease-Detection'
         }
     ];
 
