@@ -13,7 +13,8 @@ import RockVSMineImg from './../assets/rockvsminepredcitionpic.png';
 import LoanStatusImg from './../assets/loanstatuspredictionpic.png';
 import GoldPriceImg from './../assets/goldpricepredimg.png';
 import ParkinsnImg from './../assets/parkinsondiseasepredpic.png';
-import SpamSMSImg from './../assets/spamsmsimg.png'
+import SpamSMSImg from './../assets/spamsmsimg.png';
+import SuicideDepressionImg from './../assets/suicidedepressionimg.png';
 
 
 const AllMlProjects = () => {
@@ -141,6 +142,17 @@ const AllMlProjects = () => {
             techStack: 'NextJS, TailwindCSS, FastAPI, Numpy, Pandas, Matplotlib, Seaborn, NLTK, Scikit-learn',
             projectLivePreviewLink: 'https://spam-sms-predictor-frontend.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/Spam-SMS-Predictor-Frontend'
+        },
+        {
+            id: 11,
+            projectName: 'Suicide-Depression-Predictor',
+            projectDescription: 'The Suicide-Depression-Predictor is a healthcare project that uses machine learning to predict the risk of suicide and depression in individuals.',
+            projectPic: SuicideDepressionImg,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'ReactJS, TailwindCSS, FastAPI, Numpy, Pandas, Matplotlib, Seaborn, NLTK, Scikit-learn',
+            projectLivePreviewLink: 'https://suicidal-thought-and-depression-predictor-frontend.vercel.app/',
+            projectGithubLink: 'https://github.com/somenath203/Suicide-Depression-Predictor'
         }
     ];
 
