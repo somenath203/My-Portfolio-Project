@@ -15,6 +15,7 @@ import GoldPriceImg from './../assets/goldpricepredimg.png';
 import ParkinsnImg from './../assets/parkinsondiseasepredpic.png';
 import SpamSMSImg from './../assets/spamsmsimg.png';
 import SuicideDepressionImg from './../assets/suicidedepressionimg.png';
+import AirQualityPic from './../assets/airqualitypic.png';
 
 
 const AllMlProjects = () => {
@@ -145,15 +146,26 @@ const AllMlProjects = () => {
         },
         {
             id: 11,
-            projectName: 'Suicide-Depression-Predictor',
-            projectDescription: 'The Suicide-Depression-Predictor is a healthcare project that uses machine learning to predict the risk of suicide and depression in individuals.',
+            projectName: 'Suicide Depression Predictor',
+            projectDescription: 'The Suicide Depression Predictor is a healthcare project that uses machine learning to predict the risk of suicide and depression in individuals.',
             projectPic: SuicideDepressionImg,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
             techStack: 'ReactJS, TailwindCSS, FastAPI, Numpy, Pandas, Matplotlib, Seaborn, NLTK, Scikit-learn',
             projectLivePreviewLink: 'https://suicidal-thought-and-depression-predictor-frontend.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/Suicide-Depression-Predictor'
-        }
+        },
+        {
+            id: 12,
+            projectName: 'Air Quality Predictor',
+            projectDescription: 'Air Quality Predictor is a machine learning project designed to help predict the quality of the air based on four parameters: year, month, day, and hour of the measurement.',
+            projectPic: AirQualityPic,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'ReactJS, TailwindCSS, FastAPI, Pandas, Matplotlib, Seaborn, Scikit-learn',
+            projectLivePreviewLink: 'https://air-quality-predictor.vercel.app/',
+            projectGithubLink: 'https://github.com/somenath203/Air-Quality-Predictor'
+        },
     ];
 
 
