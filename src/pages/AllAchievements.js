@@ -5,6 +5,7 @@ import { message } from "antd";
 import DefaultLayout from "../components/DefaultLayout";
 
 import PostmanStudentExpertImg from './../assets/postmanstudentexpertbatchimg.png';
+import DevfolioAchievmentPic from './../assets/devfolio_achievment.png';
 
 
 const AllAchievements = () => {
@@ -31,6 +32,15 @@ const AllAchievements = () => {
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
             achievementLink: 'https://badgr.com/public/assertions/u9_k1c49QaOWTqEvt0oOzA?identity__email=somenathchoudhury35@gmail.com'
+        },
+        {
+            id: 2,
+            projectName: 'Devfolio Live the Code 2.0 Hackathon',
+            projectDescription: 'Secured Rank 6 in Devfolio Live the Code 2.0 Hackathon out of 100 teams.',
+            projectPic: DevfolioAchievmentPic,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            achievementLink: 'https://drive.google.com/file/d/1SHrwWFKx7aovLIpB6Lks4EEZ7cN9oscM/view'
         }
     ];
 
