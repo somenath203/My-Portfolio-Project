@@ -17,7 +17,7 @@ import SpamSMSImg from './../assets/spamsmsimg.png';
 import SuicideDepressionImg from './../assets/suicidedepressionimg.png';
 import AirQualityPic from './../assets/airqualitypic.png';
 import SkinLesionPic from './../assets/skinlesionimg.png';
-import CLusterNewsPic from './../assets/clusternewspic.png';
+import ClusterNewsPic from './../assets/clusternewspic.png';
 
 
 const AllMlProjects = () => {
@@ -183,7 +183,7 @@ const AllMlProjects = () => {
             id: 14,
             projectName: 'Clustering-News-Unsupervised-Machine-Learning',
             projectDescription: 'This machine learning algorithm groups news articles into clusters based on their respective types.',
-            projectPic: SkinLesionPic,
+            projectPic: ClusterNewsPic,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
             techStack: 'Numpy, Pandas, Matplotlib, NLTK, Scikit-learn',
