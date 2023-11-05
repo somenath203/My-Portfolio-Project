@@ -181,12 +181,12 @@ const AllMlProjects = () => {
         },
         {
             id: 14,
-            projectName: 'Clustering-News-Unsupervised-Machine-Learning',
+            projectName: 'Clustering News Unsupervised Machine Learning',
             projectDescription: 'This machine learning algorithm groups news articles into clusters based on their respective types.',
             projectPic: ClusterNewsPic,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
-            techStack: 'Numpy, Pandas, Matplotlib, NLTK, Scikit-learn',
+            techStack: 'Numpy, Pandas, Matplotlib, NLTK, Scikit-learn, FastAPI',
             projectLivePreviewLink: 'https://fake-news-pred.onrender.com/docs',
             projectGithubLink: 'https://github.com/somenath203/Clustering-News-Unsupervised-Machine-Learning'
         }
