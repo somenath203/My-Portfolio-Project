@@ -16,6 +16,8 @@ import ParkinsnImg from './../assets/parkinsondiseasepredpic.png';
 import SpamSMSImg from './../assets/spamsmsimg.png';
 import SuicideDepressionImg from './../assets/suicidedepressionimg.png';
 import AirQualityPic from './../assets/airqualitypic.png';
+import SkinLesionPic from './../assets/skinlesionimg.png';
+import CLusterNewsPic from './../assets/clusternewspic.png';
 
 
 const AllMlProjects = () => {
@@ -166,6 +168,28 @@ const AllMlProjects = () => {
             projectLivePreviewLink: 'https://air-quality-predictor.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/Air-Quality-Predictor'
         },
+        {
+            id: 13,
+            projectName: 'Skin Lesion Segmentation OpenCV',
+            projectDescription: 'This repository contains the code for segmenting skin lesions images using OpenCV. Skin lesion segmentation is one of the first steps towards automatic Computer-Aided Diagnosis of skin cancer.',
+            projectPic: SkinLesionPic,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Numpy, Matplotlib, OpenCV',
+            projectLivePreviewLink: 'https://github.com/somenath203/Skin-Lesion-Segmentation-OpenCV/blob/main/skin_lesion_segmentation_multiple_image_computer_vision_project.ipynb',
+            projectGithubLink: 'https://github.com/somenath203/Skin-Lesion-Segmentation-OpenCV'
+        },
+        {
+            id: 14,
+            projectName: 'Clustering-News-Unsupervised-Machine-Learning',
+            projectDescription: 'This machine learning algorithm groups news articles into clusters based on their respective types.',
+            projectPic: SkinLesionPic,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Numpy, Pandas, Matplotlib, NLTK, Scikit-learn',
+            projectLivePreviewLink: 'https://fake-news-pred.onrender.com/docs',
+            projectGithubLink: 'https://github.com/somenath203/Clustering-News-Unsupervised-Machine-Learning'
+        }
     ];
 
 
