@@ -182,7 +182,7 @@ const AllMlProjects = () => {
         {
             id: 14,
             projectName: 'Clustering News Unsupervised Machine Learning',
-            projectDescription: 'This machine learning algorithm groups news articles into clusters based on their respective types.',
+            projectDescription: 'This is a machine learning project which uses unsupervised machine learning algorithms such as k-means, k-medoids and agglomerative hierarchical clustering to group news articles into clusters based on their respective types.',
             projectPic: ClusterNewsPic,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
