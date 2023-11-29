@@ -18,6 +18,7 @@ import SuicideDepressionImg from './../assets/suicidedepressionimg.png';
 import AirQualityPic from './../assets/airqualitypic.png';
 import SkinLesionPic from './../assets/skinlesionimg.png';
 import ClusterNewsPic from './../assets/clusternewspic.png';
+import SummarizeText from './../assets/textsummarizerimg.png';
 
 
 const AllMlProjects = () => {
@@ -189,7 +190,18 @@ const AllMlProjects = () => {
             techStack: 'Numpy, Pandas, Matplotlib, NLTK, Scikit-learn, FastAPI',
             projectLivePreviewLink: 'https://fake-news-pred.onrender.com/docs',
             projectGithubLink: 'https://github.com/somenath203/Clustering-News-Unsupervised-Machine-Learning'
-        }
+        },
+        {
+            id: 14,
+            projectName: 'Text Summarizer using Transformer',
+            projectDescription: 'This is a application which is created with the help of Gradio whose work is to summarize text articles with the help of \'Summarization Pipeline\' provided by Transformer.',
+            projectPic: SummarizeText,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Transformers, Gradio',
+            projectLivePreviewLink: 'https://huggingface.co/spaces/som11/text-summary-using-gradio-and-transformer',
+            projectGithubLink: 'https://github.com/somenath203/Text-Summarizer-using-Transformers-and-Gradio'
+        },
     ];
 
 
