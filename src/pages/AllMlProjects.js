@@ -20,6 +20,7 @@ import SkinLesionPic from './../assets/skinlesionimg.png';
 import ClusterNewsPic from './../assets/clusternewspic.png';
 import SummarizeText from './../assets/textsummarizerimg.png';
 import CNNWithMNISTPic from './../assets/cnnmnistprojectpic.png';
+import CNNwithCIFARTEN from './../assets/cifartenprojectimg.png';
 
 
 const AllMlProjects = () => {
@@ -213,6 +214,17 @@ const AllMlProjects = () => {
             techStack: 'Tensorflow, Sequential, CNN',
             projectLivePreviewLink: 'https://github.com/somenath203/CNN-with-MNIST-Dataset/blob/main/cnn_on_mnist.ipynb',
             projectGithubLink: 'https://github.com/somenath203/CNN-with-MNIST-Dataset'
+        },
+        {
+            id: 17,
+            projectName: 'CNN with CIFAR-10 Dataset',
+            projectDescription: 'This is a project that utilizes Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset, which comprises 60,000 32x32 color images across 10 different classes, including airplanes, cars, birds, cats, deer, dogs, frogs, horses, ships, and trucks.',
+            projectPic: CNNwithCIFARTEN,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Tensorflow, Sequential, CNN',
+            projectLivePreviewLink: 'https://github.com/somenath203/CNN_With_CIFAR_10_Dataset/blob/main/CNN_with_CIFAR_10_Dataset.ipynb',
+            projectGithubLink: 'https://github.com/somenath203/CNN_With_CIFAR_10_Dataset'
         },
     ];
 
