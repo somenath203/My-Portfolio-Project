@@ -34,6 +34,11 @@ const MachineLearningSkills = () => {
       name: 'Scikit-learn',
       progressPercent: 65
     },
+    {
+      id: 6,
+      name: 'TensorFlow',
+      progressPercent: 48
+    }
   ];
 
   const [openingScreenLoading, setOpeningScreenLoading] = useState(false);

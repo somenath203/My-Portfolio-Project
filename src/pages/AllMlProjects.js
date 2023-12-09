@@ -19,6 +19,7 @@ import AirQualityPic from './../assets/airqualitypic.png';
 import SkinLesionPic from './../assets/skinlesionimg.png';
 import ClusterNewsPic from './../assets/clusternewspic.png';
 import SummarizeText from './../assets/textsummarizerimg.png';
+import CNNWithMNISTPic from './../assets/cnnmnistprojectpic.png';
 
 
 const AllMlProjects = () => {
@@ -201,6 +202,17 @@ const AllMlProjects = () => {
             techStack: 'Transformers, Gradio',
             projectLivePreviewLink: 'https://huggingface.co/spaces/som11/text-summary-using-gradio-and-transformer',
             projectGithubLink: 'https://github.com/somenath203/Text-Summarizer-using-Transformers-and-Gradio'
+        },
+        {
+            id: 16,
+            projectName: 'CNN with MNIST Dataset',
+            projectDescription: 'This is a project which is created with the help of Tensorflow and Convolutional Neural Network (CNN) that classifies handwritten digits from the MNIST dataset.',
+            projectPic: CNNWithMNISTPic,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Tensorflow, Sequential, CNN',
+            projectLivePreviewLink: 'https://github.com/somenath203/CNN-with-MNIST-Dataset/blob/main/cnn_on_mnist.ipynb',
+            projectGithubLink: 'https://github.com/somenath203/CNN-with-MNIST-Dataset'
         },
     ];
 
