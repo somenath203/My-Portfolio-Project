@@ -21,6 +21,7 @@ import ClusterNewsPic from './../assets/clusternewspic.png';
 import SummarizeText from './../assets/textsummarizerimg.png';
 import CNNWithMNISTPic from './../assets/cnnmnistprojectpic.png';
 import CNNwithCIFARTEN from './../assets/cifartenprojectimg.png';
+import BrainTumorPic from './../assets/braintumorpic.png';
 
 
 const AllMlProjects = () => {
@@ -225,6 +226,17 @@ const AllMlProjects = () => {
             techStack: 'Tensorflow, Sequential, CNN',
             projectLivePreviewLink: 'https://github.com/somenath203/CNN_With_CIFAR_10_Dataset/blob/main/CNN_with_CIFAR_10_Dataset.ipynb',
             projectGithubLink: 'https://github.com/somenath203/CNN_With_CIFAR_10_Dataset'
+        },
+        {
+            id: 18,
+            projectName: 'Brain Tumor Classification using CNN',
+            projectDescription: 'This is a project which uses Tensorflow, Convolutional Neural Network (CNN), and Streamlit to analyze MRI images of Brain and detect the presence or absence of Tumors.',
+            projectPic: BrainTumorPic,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Tensorflow, Sequential, CNN, Streamlit',
+            projectLivePreviewLink: 'https://huggingface.co/spaces/som11/brain_tumor_classification_using_cnn',
+            projectGithubLink: 'https://github.com/somenath203/Brain-Tumor-Classification-using-CNN'
         },
     ];
 

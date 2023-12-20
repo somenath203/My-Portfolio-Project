@@ -39,6 +39,16 @@ const FrontendDevelopmentSkills = () => {
             name: 'ChakraUI',
             progressPercent: 59
         },
+        {
+            id: 7,
+            name: 'Streamlit',
+            progressPercent: 56
+        },
+        {
+            id: 8,
+            name: 'Gradio',
+            progressPercent: 55
+        },
     ];
 
     const [openingScreenLoading, setOpeningScreenLoading] = useState(false);
