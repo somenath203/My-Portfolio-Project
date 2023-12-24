@@ -10,7 +10,8 @@ module.exports = {
         'tiltNeon': ['Tilt Neon'],
         'shantellSans': ['Shantell Sans'],
         'nunito': ['Nunito'],
-        'mukta': ['Mukta']
+        'mukta': ['Mukta'],
+        'cabin': ['Cabin']
       },
       backgroundImage: {
         'landing-page-image': "url('/src/assets/landingpagebackground.jpg')"

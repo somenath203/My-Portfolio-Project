@@ -14,7 +14,7 @@ const About = () => {
         <div className='w-11/10 p-8 lg:px-44 text-center lg:text-left rounded-xl grid grid-cols-1 lg:grid-cols-2 items-center gap-28'>
 
           <div className='mt-8'>
-            <p className='mb-10 text-3xl lg:text-4xl text-green-900 dark:text-green-50 font-shantellSans tracking-widest'>My name is Somenath Choudhury</p>
+            <p className='mb-10 text-3xl lg:text-4xl text-green-900 dark:text-green-50 font-cabin tracking-widest'>My name is Somenath Choudhury</p>
 
             <p className='mb-3 text-xl text-green-600 dark:text-green-200 font-semibold font-nunito tracking-widest lg:tracking-wider'>
               I am a Full Stack Web Developer and Machine Learning Enthusiast experienced in developing interactive web applications and machine learning models and deploying them in production.
