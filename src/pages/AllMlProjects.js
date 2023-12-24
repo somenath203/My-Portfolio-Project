@@ -22,6 +22,7 @@ import SummarizeText from './../assets/textsummarizerimg.png';
 import CNNWithMNISTPic from './../assets/cnnmnistprojectpic.png';
 import CNNwithCIFARTEN from './../assets/cifartenprojectimg.png';
 import BrainTumorPic from './../assets/braintumorpic.png';
+import ForecastInClothingLSTM from './../assets/forecastclothfuturelstmpic.png';
 
 
 const AllMlProjects = () => {
@@ -237,6 +238,17 @@ const AllMlProjects = () => {
             techStack: 'Tensorflow, Sequential, CNN, Streamlit',
             projectLivePreviewLink: 'https://huggingface.co/spaces/som11/brain_tumor_classification_using_cnn',
             projectGithubLink: 'https://github.com/somenath203/Brain-Tumor-Classification-using-CNN'
+        },
+        {
+            id: 19,
+            projectName: 'Predicting Future Retail Sales of Clothing Stores using LSTM',
+            projectDescription: 'This is a project which uses Tensorflow and Long Short Term Memory(LSTM), a type of Recurrent Neural Network(RNN), to forecast the future retail sales of clothing and clothing accessory stores.',
+            projectPic: ForecastInClothingLSTM,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Tensorflow, Sequential, LSTM',
+            projectLivePreviewLink: 'https://github.com/somenath203/Predicting-Future-Retail-Sales-of-Clothing-Stores-using-LSTM/blob/main/Predicting%20Future%20Retail%20Sales%20of%20Clothing%20using%20LSTM.ipynb',
+            projectGithubLink: 'https://github.com/somenath203/Predicting-Future-Retail-Sales-of-Clothing-Stores-using-LSTM'
         },
     ];
 
