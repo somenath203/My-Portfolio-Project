@@ -17,7 +17,7 @@ const About = () => {
             <p className='mb-10 text-3xl lg:text-4xl text-green-900 dark:text-green-50 font-cabin tracking-widest'>My name is Somenath Choudhury</p>
 
             <p className='mb-3 text-xl text-green-600 dark:text-green-200 font-semibold font-nunito tracking-widest lg:tracking-wider'>
-              I am a Full Stack Web Developer and Machine Learning Enthusiast experienced in developing interactive web applications and machine learning models and deploying them in production.
+              Full Stack Web Developer and Machine Learning Enthusiast with over 2 years of hands-on experience in developing interactive web applications, machine learning models and deploying them in production.
             </p>
 
             <p className='mb-8 text-xl text-green-600 dark:text-green-200 dark:text-green-300dark:text-green-300 font-semibold font-nunito tracking-widest lg:tracking-wider'>
