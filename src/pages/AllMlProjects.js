@@ -254,7 +254,7 @@ const AllMlProjects = () => {
         {
             id: 20,
             projectName: 'Removing Noise from MNIST handwritten digit images using Autoencoder',
-            projectDescription: 'This project demonstrates how to use autoencoder a type of neural network, to remove noise from images of handwritten digits from the MNIST dataset.',
+            projectDescription: 'This project demonstrates how to use autoencoder a type of neural network, to remove noise from images of handwritten digits of the MNIST dataset.',
             projectPic: RemoveNoiseFromImg,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
