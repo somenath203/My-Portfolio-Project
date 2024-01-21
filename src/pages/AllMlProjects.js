@@ -23,6 +23,7 @@ import CNNWithMNISTPic from './../assets/cnnmnistprojectpic.png';
 import CNNwithCIFARTEN from './../assets/cifartenprojectimg.png';
 import BrainTumorPic from './../assets/braintumorpic.png';
 import ForecastInClothingLSTM from './../assets/forecastclothfuturelstmpic.png';
+import RemoveNoiseFromImg from './../assets/reducenoiseprojectimg.png';
 
 
 const AllMlProjects = () => {
@@ -250,6 +251,17 @@ const AllMlProjects = () => {
             projectLivePreviewLink: 'https://github.com/somenath203/Predicting-Future-Retail-Sales-of-Clothing-Stores-using-LSTM/blob/main/Predicting%20Future%20Retail%20Sales%20of%20Clothing%20using%20LSTM.ipynb',
             projectGithubLink: 'https://github.com/somenath203/Predicting-Future-Retail-Sales-of-Clothing-Stores-using-LSTM'
         },
+        {
+            id: 20,
+            projectName: 'Removing Noise from MNIST handwritten digit images using Autoencoder',
+            projectDescription: 'This project demonstrates how to use autoencoder a type of neural network, to remove noise from images of handwritten digits from the MNIST dataset.',
+            projectPic: RemoveNoiseFromImg,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Tensorflow, Sequential, Autoencoder',
+            projectLivePreviewLink: 'https://github.com/somenath203/Removing-Noise-from-MNIST-handwritten-digit-images-using-Autoencoder/blob/main/removing_noise_from_MNIST_handwritten_digit_images_using_autoencoder.ipynb',
+            projectGithubLink: 'https://github.com/somenath203/Predicting-Future-Retail-Sales-of-Clothing-Stores-using-LSTM'
+        }
     ];
 
 
