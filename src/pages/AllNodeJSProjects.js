@@ -48,7 +48,7 @@ const AllNodeJSProjects = () => {
             widthOfImg: 'w-screen',
             techStack: 'NodeJS, ExpressJS, MongoDB, Cloudinary, Sendgrid',
             projectLivePreviewLink: 'https://jobs-api-backend.onrender.com/',
-            projectGithubLink: 'https://github.com/somenath203/Blog-Backend-API'
+            projectGithubLink: 'https://github.com/somenath203/Jobs-API'
         },
         {
             id: 3,
