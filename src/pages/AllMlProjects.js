@@ -290,7 +290,7 @@ const AllMlProjects = () => {
         {
             id: 23,
             projectName: 'Language Identifier',
-            projectDescription: "This is a deep learning project created with the help of Tensorflow that predicts the language of a given text snippet. Currently, this language prediction model supports a total of 22 languages as of now, which include: Arabic, Chinese, Dutch, English, Estonian, French, Hindi, Indonesian, Japanese, Korean, Latin, Persian, Portuguese, Pashto, Romanian, Russian, Spanish, Swedish, Tamil, Thai, Turkish, and Urdu.",
+            projectDescription: "This is a deep learning project created with the help of Tensorflow that predicts the language of a given text snippet.",
             projectPic: LanguageIdentifierProjImg,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
