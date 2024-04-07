@@ -294,7 +294,7 @@ const AllMlProjects = () => {
             projectPic: LanguageIdentifierProjImg,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
-            techStack: 'Tensorflow, CNN, Transfer learning, Ensemble Learning, Gradio',
+            techStack: 'Tensorflow, Transfer learning, Ensemble Learning, Gradio',
             projectLivePreviewLink: 'https://huggingface.co/spaces/som11/language-predictor',
             projectGithubLink: 'https://github.com/somenath203/Language-Identifier-using-Tensorflow'
         },
