@@ -12,6 +12,7 @@ import KeywordExtractorPic from './../assets/keywordextractorimg.png';
 import TextSentimentAnalyzerPic from './../assets/textsentimentanalyzerpic.png';
 import MiniDictionaryImage from './../assets/minidictionaryimage.png';
 import WeatherImage from './../assets/weatherapimage.png';
+import CurrencyConverterImage from './../assets/currencyconverterimg.png';
 
 
 const AllReactProjects = () => {
@@ -117,6 +118,17 @@ const AllReactProjects = () => {
             techStack: 'React, TailwindCSS, ExpressJS, OpenWeatherAPI',
             projectLivePreviewLink: 'https://weather-app-frontend-nine.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/Weather-App-Frontend'
+        },
+        {
+            id: 9,
+            projectName: 'Currency Converter',
+            projectDescription: 'This is an application which is designed to provide a fast and reliable way to convert currencies using real-time exchange rates.',
+            projectPic: CurrencyConverterImage,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'ViteJS, TailwindCSS, Frankfurter API',
+            projectLivePreviewLink: 'https://currency-converter-nine-kappa.vercel.app/',
+            projectGithubLink: 'https://github.com/somenath203/Currency-Converter'
         },
     ];
 

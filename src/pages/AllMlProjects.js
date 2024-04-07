@@ -24,6 +24,9 @@ import CNNwithCIFARTEN from './../assets/cifartenprojectimg.png';
 import BrainTumorPic from './../assets/braintumorpic.png';
 import ForecastInClothingLSTM from './../assets/forecastclothfuturelstmpic.png';
 import RemoveNoiseFromImg from './../assets/reducenoiseprojectimg.png';
+import MulticlassBrainTumorImg from './../assets/multiclassbraintumorprojectimage.png';
+import SatelliteImageClassificationProjImg from './../assets/satelliteimgclassifyprojectimg.png';
+import LanguageIdentifierProjImg from './../assets/languageidentifierprojectimg.png';
 
 
 const AllMlProjects = () => {
@@ -231,7 +234,7 @@ const AllMlProjects = () => {
         },
         {
             id: 18,
-            projectName: 'Brain Tumor Classification using CNN',
+            projectName: 'Binaryclass Brain Tumor Classification using CNN',
             projectDescription: 'This is a project which uses Tensorflow, Convolutional Neural Network (CNN), and Streamlit to analyze MRI images of Brain and detect the presence or absence of Tumors.',
             projectPic: BrainTumorPic,
             heightOfImg: 'h-60',
@@ -261,7 +264,40 @@ const AllMlProjects = () => {
             techStack: 'Tensorflow, Sequential, Autoencoder',
             projectLivePreviewLink: 'https://github.com/somenath203/Removing-Noise-from-MNIST-handwritten-digit-images-using-Autoencoder/blob/main/removing_noise_from_MNIST_handwritten_digit_images_using_autoencoder.ipynb',
             projectGithubLink: 'https://github.com/somenath203/Predicting-Future-Retail-Sales-of-Clothing-Stores-using-LSTM'
-        }
+        },
+        {
+            id: 21,
+            projectName: 'Multiclass Brain Tumor Classification using TensorFlow',
+            projectDescription: 'This is a project which uses deep learning algorithm to classify the type of tumor present in the brain MRI image. The model is only able to detect three type of tumors as of now i.e. glioma, meningioma and pituitary.',
+            projectPic: MulticlassBrainTumorImg,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Tensorflow, CNN, Transfer learning, Ensemble Learning, NextJS, FastAPI',
+            projectLivePreviewLink: 'https://multiclass-brain-tumor-classification.vercel.app/',
+            projectGithubLink: 'https://github.com/somenath203/Binaryclass-Brain-Tumor-Classification-using-CNN'
+        },
+        {
+            id: 22,
+            projectName: 'Satellite Image Classifier',
+            projectDescription: "The aim of this project is to classify satellite images into their respective categories i.e. 'Cloudy', 'Desert', 'Green Area' and 'Water' using Convolutional Neural Networks (CNNs) implemented with TensorFlow.",
+            projectPic: SatelliteImageClassificationProjImg,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Tensorflow, CNN, Transfer learning, Gradio',
+            projectLivePreviewLink: 'https://huggingface.co/spaces/som11/satellite_image_classification',
+            projectGithubLink: 'https://github.com/somenath203/satellite-image-classification-using-tensorflow'
+        },
+        {
+            id: 23,
+            projectName: 'Language Identifier',
+            projectDescription: "This is a deep learning project created with the help of Tensorflow that predicts the language of a given text snippet. Currently, this language prediction model supports a total of 22 languages as of now, which include: Arabic, Chinese, Dutch, English, Estonian, French, Hindi, Indonesian, Japanese, Korean, Latin, Persian, Portuguese, Pashto, Romanian, Russian, Spanish, Swedish, Tamil, Thai, Turkish, and Urdu.",
+            projectPic: LanguageIdentifierProjImg,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Tensorflow, CNN, Transfer learning, Ensemble Learning, Gradio',
+            projectLivePreviewLink: 'https://huggingface.co/spaces/som11/language-predictor',
+            projectGithubLink: 'https://github.com/somenath203/Language-Identifier-using-Tensorflow'
+        },
     ];
 
 
