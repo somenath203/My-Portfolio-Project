@@ -27,6 +27,7 @@ import RemoveNoiseFromImg from './../assets/reducenoiseprojectimg.png';
 import MulticlassBrainTumorImg from './../assets/multiclassbraintumorprojectimage.png';
 import SatelliteImageClassificationProjImg from './../assets/satelliteimgclassifyprojectimg.png';
 import LanguageIdentifierProjImg from './../assets/languageidentifierprojectimg.png';
+import MalariaImgCellClassifyProjImg from './../assets/malariacellclassification.png';
 
 
 const AllMlProjects = () => {
@@ -280,10 +281,10 @@ const AllMlProjects = () => {
             id: 22,
             projectName: 'Satellite Image Classifier',
             projectDescription: "The aim of this project is to classify satellite images into their respective categories i.e. 'Cloudy', 'Desert', 'Green Area' and 'Water' using Convolutional Neural Networks (CNNs) implemented with TensorFlow.",
-            projectPic: SatelliteImageClassificationProjImg,
+            projectPic: MalariaImgCellClassifyProjImg,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
-            techStack: 'Tensorflow, CNN, Transfer learning, Gradio',
+            techStack: 'Tensorflow, CNN, Transfer learning, Ensemble Learning, NextJS, ExpressJS, Razorpay',
             projectLivePreviewLink: 'https://huggingface.co/spaces/som11/satellite_image_classification',
             projectGithubLink: 'https://github.com/somenath203/satellite-image-classification-using-tensorflow'
         },
@@ -297,6 +298,17 @@ const AllMlProjects = () => {
             techStack: 'Tensorflow, Transfer learning, Ensemble Learning, Gradio',
             projectLivePreviewLink: 'https://huggingface.co/spaces/som11/language-predictor',
             projectGithubLink: 'https://github.com/somenath203/Language-Identifier-using-Tensorflow'
+        },
+        {
+            id: 24,
+            projectName: 'Malaria Image Cell Classification using TensorFlow',
+            projectDescription: "This is a deep learning project created with the help of Tensorflow that predicts the language of a given text snippet.",
+            projectPic: LanguageIdentifierProjImg,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Tensorflow, Transfer learning, Ensemble Learning, Gradio',
+            projectLivePreviewLink: 'https://malaria-cell-classifier.vercel.app/',
+            projectGithubLink: 'https://github.com/somenath203/malaria-cell-image-classification'
         },
     ];
 
