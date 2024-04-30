@@ -7,7 +7,8 @@ import DefaultLayout from "../components/DefaultLayout";
 import ImageGalleryPic from './../assets/imagegallery.png';
 import MyExpenseManagerPic from './../assets/myexpensemanager.png';
 import ShortMyURLPic from './../assets/shortmyurlpic.png';
-import MernAuthWithEmailVerify from './../assets/authwithemailverification.png'
+import MernAuthWithEmailVerifyPic from './../assets/authwithemailverification.png';
+import ShareYourFilePic from './../assets/sharefileprojpic.png';
 
 
 const AllMernProjects = () => {
@@ -63,12 +64,23 @@ const AllMernProjects = () => {
             id: 4,
             projectName: 'Mern Authenitcation with Email Activation',
             projectDescription: 'This is a project where the account of the user is activated when the user clicks on the activation link sent to him/her in there respective email address when the user registers for a new account.',
-            projectPic: MernAuthWithEmailVerify,
+            projectPic: MernAuthWithEmailVerifyPic,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
             techStack: 'React, Bootstrap, ExpressJS, MongoDB, Nodemailer',
             projectLivePreviewLink: 'https://mern-authentication-with-email-activation-frontend.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/Mern-Authentication-with-Email-Activation-Frontend'
+        },
+        {
+            id: 5,
+            projectName: 'Share Your File',
+            projectDescription: 'This is a web tool that let users share files easily. Just upload your files, and it will give you a link to share them.',
+            projectPic: ShareYourFilePic,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'React, antd, ExpressJS, MongoDB',
+            projectLivePreviewLink: 'https://shareyourfile.vercel.app/',
+            projectGithubLink: 'https://github.com/somenath203/Share-Your-File'
         },
     ];
 
