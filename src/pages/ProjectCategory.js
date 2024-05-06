@@ -42,7 +42,7 @@ const ProjectCategory = () => {
     },
     {
       id: 3,
-      categoryName: 'React Projects',
+      categoryName: 'React and NextJS Projects',
       imageUrl: ReactImg,
       widthOfImg: 'w-50',
       heightOfImg: 'h-40',

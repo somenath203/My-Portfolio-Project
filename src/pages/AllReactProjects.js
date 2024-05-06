@@ -13,6 +13,7 @@ import TextSentimentAnalyzerPic from './../assets/textsentimentanalyzerpic.png';
 import MiniDictionaryImage from './../assets/minidictionaryimage.png';
 import WeatherImage from './../assets/weatherapimage.png';
 import CurrencyConverterImage from './../assets/currencyconverterimg.png';
+import QrCodeProjImage from './../assets/playwithqrcode.png';
 
 
 const AllReactProjects = () => {
@@ -129,6 +130,17 @@ const AllReactProjects = () => {
             techStack: 'ViteJS, TailwindCSS, Frankfurter API',
             projectLivePreviewLink: 'https://currency-converter-nine-kappa.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/Currency-Converter'
+        },
+        {
+            id: 10,
+            projectName: 'Play With QRCode',
+            projectDescription: 'This is a website developed with the help of NextJS, tailwindCSS and ShadcnUI that lets user generate and scan QRCodes.',
+            projectPic: QrCodeProjImage,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'NextJS, TailwindCSS, ShadcnUI',
+            projectLivePreviewLink: 'https://play-with-qr-code.vercel.app/',
+            projectGithubLink: 'https://github.com/somenath203/Play-With-QRCode'
         },
     ];
 
