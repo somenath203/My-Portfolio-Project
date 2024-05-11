@@ -26,7 +26,7 @@ const AllReactProjects = () => {
             <>
                 <div className='mt-2 min-h-screen flex items-center justify-center flex-col gap-14 bg-white dark:bg-gradient-to-r dark:from-slate-800 dark:to-slate-900'>
                     <i className="fa-solid fa-spinner animate-spin text-black dark:text-green-50 text-9xl"></i>
-                    <p className="text-xl lg:text-3xl text-center tracking-wider text-green-800 dark:text-white">Loading React Projects...</p>
+                    <p className="text-xl lg:text-3xl text-center tracking-wider text-green-800 dark:text-white">Loading React and NextJS Projects...</p>
                 </div>
             </>
         )
@@ -165,7 +165,7 @@ const AllReactProjects = () => {
 
             setOpeningScreenLoading(false);
 
-            message.success('all of my react projects are fetched successfully');
+            message.success('all of my react and nextjs projects are fetched successfully');
 
         }, 2500);
 

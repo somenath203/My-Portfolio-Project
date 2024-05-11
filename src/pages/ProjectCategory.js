@@ -46,7 +46,7 @@ const ProjectCategory = () => {
       imageUrl: ReactImg,
       widthOfImg: 'w-50',
       heightOfImg: 'h-40',
-      categoryDescription: 'Click below to get all my React Projects',
+      categoryDescription: 'Click below to get all my React and NextJS Projects',
       redirectUrl: '/react-projects',
       borderColor: 'border-blue-600',
       descriptionColor: 'text-blue-700',
