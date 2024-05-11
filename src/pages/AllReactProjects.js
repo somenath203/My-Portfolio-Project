@@ -14,6 +14,7 @@ import MiniDictionaryImage from './../assets/minidictionaryimage.png';
 import WeatherImage from './../assets/weatherapimage.png';
 import CurrencyConverterImage from './../assets/currencyconverterimg.png';
 import QrCodeProjImage from './../assets/playwithqrcode.png';
+import ImageTextExtractorImage from './../assets/imagetextextractorimage.png';
 
 
 const AllReactProjects = () => {
@@ -141,6 +142,17 @@ const AllReactProjects = () => {
             techStack: 'NextJS, TailwindCSS, ShadcnUI',
             projectLivePreviewLink: 'https://play-with-qr-code.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/Play-With-QRCode'
+        },
+        {
+            id: 11,
+            projectName: 'Image Text Extractor',
+            projectDescription: 'This is a web app that lets users extract text from any image and also the user has the option to copy the extracted text in the clipboard as well.',
+            projectPic: ImageTextExtractorImage,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'NextJS, TailwindCSS, daisyUI, FastAPI, pytesseract',
+            projectLivePreviewLink: 'https://image-text-generator.vercel.app/',
+            projectGithubLink: 'https://github.com/somenath203/Image-Text-Extractor'
         },
     ];
 
