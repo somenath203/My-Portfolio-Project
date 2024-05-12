@@ -15,7 +15,7 @@ import WeatherImage from './../assets/weatherapimage.png';
 import CurrencyConverterImage from './../assets/currencyconverterimg.png';
 import QrCodeProjImage from './../assets/playwithqrcode.png';
 import ImageTextExtractorImage from './../assets/imagetextextractorimage.png';
-
+import MarkdownPreviewer from './../assets/markdownpreviewerprojimg.png';
 
 const AllReactProjects = () => {
 
@@ -153,6 +153,17 @@ const AllReactProjects = () => {
             techStack: 'NextJS, TailwindCSS, daisyUI, FastAPI, pytesseract',
             projectLivePreviewLink: 'https://image-text-generator.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/Image-Text-Extractor'
+        },
+        {
+            id: 12,
+            projectName: 'Markdown Previewer',
+            projectDescription: 'Markdown Previewer is an application created with the help of NextJS, tailwincCSS and daisyUI that allows you to instantly preview your markdown syntax as rendered HTML.',
+            projectPic: MarkdownPreviewer,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'NextJS, TailwindCSS, daisyUI, react-markdown',
+            projectLivePreviewLink: 'https://markdown-previewer-psi-liard.vercel.app/',
+            projectGithubLink: 'https://github.com/somenath203/Markdown-Previewer'
         },
     ];
 
