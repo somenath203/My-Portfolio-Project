@@ -28,6 +28,7 @@ import MulticlassBrainTumorImg from './../assets/multiclassbraintumorprojectimag
 import SatelliteImageClassificationProjImg from './../assets/satelliteimgclassifyprojectimg.png';
 import LanguageIdentifierProjImg from './../assets/languageidentifierprojectimg.png';
 import MalariaImgCellClassifyProjImg from './../assets/malariacellclassification.png';
+import NamedEntityRecognizerImg from './../assets/namedentityrecognizerpic.png';
 
 
 const AllMlProjects = () => {
@@ -309,6 +310,17 @@ const AllMlProjects = () => {
             techStack: 'Tensorflow, CNN, Transfer learning, Ensemble Learning, NextJS, ExpressJS, Razorpay',
             projectLivePreviewLink: 'https://malaria-cell-classifier.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/malaria-cell-image-classification'
+        },
+        {
+            id: 25,
+            projectName: 'Named Entity Recognizer',
+            projectDescription: "This project is designed to help you extract and categorize named entities from text using state-of-the-art NLP models like dslim/bert-base-NER and Spacy's en_core_web_sm model.",
+            projectPic: NamedEntityRecognizerImg,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Transformers, Spacy, Streamlit',
+            projectLivePreviewLink: 'https://som11-named-entity-recognition.hf.space/',
+            projectGithubLink: 'https://github.com/somenath203/Named-Entity-Recognizer'
         },
     ];
 
