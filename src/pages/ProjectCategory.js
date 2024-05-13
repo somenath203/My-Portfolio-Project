@@ -94,7 +94,7 @@ const ProjectCategory = () => {
     },
     {
       id: 7,
-      categoryName: 'Ml Projects',
+      categoryName: 'Ml and Dl Projects',
       imageUrl: MLImage,
       widthOfImg: 'w-70',
       heightOfImg: 'h-40',
