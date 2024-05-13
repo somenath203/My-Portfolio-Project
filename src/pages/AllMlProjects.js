@@ -208,7 +208,7 @@ const AllMlProjects = () => {
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
             techStack: 'Transformers, Gradio',
-            projectLivePreviewLink: 'https://huggingface.co/spaces/som11/text-summary-using-gradio-and-transformer',
+            projectLivePreviewLink: 'https://som11-text-summary-using-gradio-and-transformer.hf.space/',
             projectGithubLink: 'https://github.com/somenath203/Text-Summarizer-using-Transformers-and-Gradio'
         },
         {
@@ -241,7 +241,7 @@ const AllMlProjects = () => {
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
             techStack: 'Tensorflow, Sequential, CNN, Streamlit',
-            projectLivePreviewLink: 'https://huggingface.co/spaces/som11/brain_tumor_classification_using_cnn',
+            projectLivePreviewLink: 'https://som11-brain-tumor-classification-using-cnn.hf.space',
             projectGithubLink: 'https://github.com/somenath203/Brain-Tumor-Classification-using-CNN'
         },
         {
@@ -285,7 +285,7 @@ const AllMlProjects = () => {
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
             techStack: 'Tensorflow, CNN, Transfer learning, Gradio',
-            projectLivePreviewLink: 'https://huggingface.co/spaces/som11/satellite_image_classification',
+            projectLivePreviewLink: 'https://som11-satellite-image-classification.hf.space',
             projectGithubLink: 'https://github.com/somenath203/satellite-image-classification-using-tensorflow'
         },
         {
@@ -296,7 +296,7 @@ const AllMlProjects = () => {
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
             techStack: 'Tensorflow, Transfer learning, Ensemble Learning, Gradio',
-            projectLivePreviewLink: 'https://huggingface.co/spaces/som11/language-predictor',
+            projectLivePreviewLink: 'https://som11-language-predictor.hf.space',
             projectGithubLink: 'https://github.com/somenath203/Language-Identifier-using-Tensorflow'
         },
         {
