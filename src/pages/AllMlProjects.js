@@ -29,6 +29,7 @@ import SatelliteImageClassificationProjImg from './../assets/satelliteimgclassif
 import LanguageIdentifierProjImg from './../assets/languageidentifierprojectimg.png';
 import MalariaImgCellClassifyProjImg from './../assets/malariacellclassification.png';
 import NamedEntityRecognizerImg from './../assets/namedentityrecognizerpic.png';
+import TomatoLeafImg from './../assets/tomatoleafprojectpic.png';
 
 
 const AllMlProjects = () => {
@@ -321,6 +322,17 @@ const AllMlProjects = () => {
             techStack: 'Transformers, Spacy, Streamlit',
             projectLivePreviewLink: 'https://som11-named-entity-recognition.hf.space/',
             projectGithubLink: 'https://github.com/somenath203/Named-Entity-Recognizer'
+        },
+        {
+            id: 26,
+            projectName: 'Tomato Leaf Disease Classification',
+            projectDescription: "In this project, deep learning techniques are used to detect and classify diseases in tomato leaves. This project is designed to help farmers know more about the health of their crops, providing valuable insights for effective crop management.",
+            projectPic: TomatoLeafImg,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Tensorflow, Transfer Learning, Ensemble Learning, ReactJS, TailwindCSS, Transfer Learning, ExpressJS, FastAPI',
+            projectLivePreviewLink: 'https://healthy-tomato.vercel.app/',
+            projectGithubLink: 'https://github.com/somenath203/tomato-disease-classification-ten-classes'
         },
     ];
 
