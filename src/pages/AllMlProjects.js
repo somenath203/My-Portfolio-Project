@@ -30,6 +30,7 @@ import LanguageIdentifierProjImg from './../assets/languageidentifierprojectimg.
 import MalariaImgCellClassifyProjImg from './../assets/malariacellclassification.png';
 import NamedEntityRecognizerImg from './../assets/namedentityrecognizerpic.png';
 import TomatoLeafImg from './../assets/tomatoleafprojectpic.png';
+import ToxicCommentClassificationProjImg from './../assets/toxiccommentclassificationproj.png';
 
 
 const AllMlProjects = () => {
@@ -333,6 +334,17 @@ const AllMlProjects = () => {
             techStack: 'Tensorflow, Transfer Learning, Ensemble Learning, ReactJS, TailwindCSS, Transfer Learning, ExpressJS, FastAPI',
             projectLivePreviewLink: 'https://healthy-tomato.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/tomato-disease-classification-ten-classes'
+        },
+        {
+            id: 27,
+            projectName: 'Toxic Comment Classifier',
+            projectDescription: "This is a project which categorizes a particular toxic comment entered by the user into mainly 6 categories and those are: toxic, severe_toxic, obscene, threat, insult and identity_hate.",
+            projectPic: ToxicCommentClassificationProjImg,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'Flutter, FastAPI, Toxic-Bert HuggingFace Model',
+            projectLivePreviewLink: 'https://github.com/somenath203/Toxic-Comment-Classifier?tab=readme-ov-file#demo-video-of-the-project',
+            projectGithubLink: 'https://github.com/somenath203/Toxic-Comment-Classifier'
         },
     ];
 
