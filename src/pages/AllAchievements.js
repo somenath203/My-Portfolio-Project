@@ -36,7 +36,7 @@ const AllAchievements = () => {
         {
             id: 2,
             projectName: 'Devfolio Live the Code 2.0 Hackathon',
-            projectDescription: 'Secured Rank 6 in Devfolio Live the Code 2.0 Hackathon out of 100 teams.',
+            projectDescription: 'Secured Rank 5 in Devfolio Live the Code 2.0 Hackathon out of 100 teams.',
             projectPic: DevfolioAchievmentPic,
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
